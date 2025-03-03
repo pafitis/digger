@@ -1,0 +1,7 @@
+quiet: True
+format: 'm4a/bestaudio/best'
+postprocessors: [
+    {'key': 'FFmpegExtractAudio',
+    'preferredcodec': 'm4a'}
+    ]
+paths: {'home': 'temp'}
